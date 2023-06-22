@@ -12,7 +12,7 @@ const Product = (props) => {
 
   return (
     <div className="product">
-      <img src={productImg} alt="" />
+      <img src={productImg} alt="" style={{objectFit:"cover"}}/>
       <div className="description">
         <p>
           <b>{productName}</b>
